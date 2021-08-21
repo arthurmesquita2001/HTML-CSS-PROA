@@ -1,0 +1,201 @@
+* {
+    margin: 10px;
+    /* margem  */
+    padding: 2px;
+    /* espaçamento interno  */
+    font-size: 100%;
+    /* tamanho da fonte  */
+    font-family: 'Roboto', sans-serif;
+    /* estilo da fonte  */
+    font-weight: normal;
+    /* largura da fonte */
+    box-sizing: border-box;
+    /* tamanho da caixa  */
+    border: none;
+    /* borda  */
+    outline: none;
+    /* linha de fundo */
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    /* 1 em = 16 px  */
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #778;
+}
+
+
+/* Cabeçalho */
+
+.inicio {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 15px;
+}
+
+.inicio h1 {
+    font-size: 2em;
+}
+
+.inicio p {
+    color: white;
+    text-align: center;
+}
+
+
+/* Menu */
+
+.menu {
+    width: 100%;
+    margin-top: 100px;
+    padding: 0px 8%;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom left, orangered 18%, black 53%);
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: cornsilk;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: crimson;
+    font-size: 1.05em;
+}
+
+#luka {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 5px royalblue ridge;
+    background: linear-gradient(to right, #003399 18%, #ffffff 125%);
+}
+
+#lebron {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 5px purple ridge;
+    background: linear-gradient(to right, #660066 18%, #ffff00 125%)
+}
+
+#tim {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 5px gray ridge;
+    background: linear-gradient(to right, gray 18%, rgba(0, 0, 0, 0.377) 125%)
+}
+
+#mj {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 5px red ridge;
+    background: linear-gradient(to right, red 18%, #fff 125%)
+}
+
+#curry {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 5px yellow ridge;
+    background: linear-gradient(to right, yellow 18%, blue 125%)
+}
+
+.ft {
+    width: 500px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+
+.paragrafos {
+    text-align: justify;
+    color: white;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.links p {
+    text-align: center;
+    color: white;
+}
+
+.links p:hover {
+    color: orangered;
+    font-size: 1.05em;
+}
+
+.videos {
+    display: block;
+    margin: auto;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000 14%, #ff6600 125%);
+}
+
+
+/* PÁGINAS DOS ATLETAS */
+
+.partidas {
+    padding: 5px;
+}
+
+.partidas h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px #fff ridge;
+    border-radius: 18px;
+    padding: 5px;
+}
+
+.voltar {
+    width: 100px;
+    float: left;
+    order: 5px gray ridge;
+    border-radius: 40px;
+    background: linear-gradient(to right, gray 18%, white 125%);
+    text-align: center;
+}
+
+.voltar p {
+    color: black;
+}
+
+
+/* rodape */
+
+.final {
+    margin-top: 30px;
+}
+
+.final p {
+    color: #fff;
+    text-align: center;
+}
