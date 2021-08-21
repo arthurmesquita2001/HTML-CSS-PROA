@@ -1,0 +1,209 @@
+/* RESET  */
+
+* {
+    font-size: 100%;
+    /* tamanho da fonte  */
+    font-family: 'Roboto', sans-serif;
+    /* estilo da fonte  */
+    font-weight: normal;
+    /* largura da fonte */
+    box-sizing: border-box;
+    /* tamanho da caixa  */
+    border: none;
+    /* borda  */
+    outline: none;
+    /* linha de fundo */
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    /* 1 em = 16 px  */
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: black;
+}
+
+hr {
+    color: black;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    /* ir de uma ponta a outra  */
+    float: left;
+    padding: 18px 8%;
+    background-color: rgb(52, 115, 233);
+    margin: 0px;
+    /* margem  */
+    padding: 50px;
+    /* espaçamento interno  */
+}
+
+.cabecalho h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto {
+    background-color: lightgray;
+}
+
+
+/* Menu */
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: black;
+    padding: 18px 8%;
+    font-size: 12px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: cornsilk;
+    padding-right: 30px;
+}
+
+.menu li a:hover {
+    color: #2D888F;
+    font-size: 1.05em;
+}
+
+
+/* corpo do texto */
+
+.principal {
+    width: 100%;
+    padding: 16px 8%;
+}
+
+.cidades h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: solid gray;
+    box-shadow: cornflowerblue;
+    border-radius: 10px;
+}
+
+.cidades {
+    width: 100%;
+    float: left;
+}
+
+.cidades a img {
+    height: 200px;
+    float: left;
+    border-radius: 20px;
+    margin: 0 15px 10px 0;
+}
+
+.cidades p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+/* Links */
+
+.link {
+    text-align: center;
+}
+
+.link p {
+    float: center;
+    border: 1px solid;
+    padding: 11px 21px;
+    vertical-align: middle;
+    background: #2D888F;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.link_b {
+    float: right;
+}
+
+.button {
+    float: center;
+    border: 1px solid;
+    padding: 11px 21px;
+    vertical-align: middle;
+    background: #2D888F;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Bandeiras e hinos */
+
+body {
+    background-color: lightgray;
+}
+
+.img_bandeiras {
+    height: 200px;
+    border-radius: 20px;
+    padding: 15px 0 5px 0;
+}
+
+.titulos {
+    width: 100%;
+    /* ir de uma ponta a outra  */
+    float: left;
+    padding: 18px 8%;
+    background-color: rgb(52, 115, 233);
+    margin: 0px;
+    /* margem  */
+    padding: 10px;
+    /* espaçamento interno  */
+}
+
+.titulos {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+
+/* hino  */
+
+.hinos {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+}
