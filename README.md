@@ -1,2 +1,2 @@
 # HTML-CSS-PROA
-Páginas feitas junto ao professor Obama.
+Conteúdo que foi desenvolvido no primeiro módulo do curso.
