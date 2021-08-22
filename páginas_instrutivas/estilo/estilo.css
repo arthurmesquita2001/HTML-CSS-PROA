@@ -1,0 +1,39 @@
+h1 {
+    /* max-width: max-content */
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+#p1 {
+    /* color: */
+    color: yellowgreen;
+    font-size: 18px;
+    text-align: justify;
+    border: 5px royalblue ridge;
+    /* background-image: url(..//imagens/taubate.jpg) fixed; */
+    /* background-repeat: no-repeat; */
+}
+
+.pdiferenciado {
+    color: blueviolet;
+    border: 5px orange ridge;
+}
+
+#saobernardo {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    /*  */
+}
+
+.rodape {
+    background-color: brown;
+    color: #abcdea;
+}
+
+#botao {
+    border: 2px solid;
+}
